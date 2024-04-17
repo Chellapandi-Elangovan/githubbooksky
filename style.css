@@ -1,0 +1,134 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+body{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.navbar{
+    /* position: absolute;
+    top: 0; */
+    /* width: 100%; */
+    padding: 20px;
+    background-color: rgba(247, 237, 64, 0.923);
+    color: rgb(109, 17, 17);
+}
+.container{
+    padding: 10px;
+}
+.kidsstory{
+    /* position: absolute;
+    top:80px;
+    z-index: 2; */
+    width: 25%;
+    padding: 15px;
+    background-color: rgb(239, 248, 72);
+    border-radius: 30px;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+.kidsstory h2{
+    padding: 10px;
+    color: brown;
+}
+.kidsstory h5{
+    padding: 10px;
+}
+.kidsstory p{
+    padding: 10px;
+}
+.read-button{
+    background-color: red;
+    margin-top: 10px;
+     margin-left: 10px; 
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 15px;
+    color: white;
+}
+.delete-button{
+    background-color: red;
+    margin-top: 10px;
+     margin-left: 10px; 
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 15px;
+    color: white;
+}
+.close-button:hover{
+    transform: 2px black;
+    transition: 0.2s;
+}
+.popup{
+    position: absolute;
+    /* top: 0; */
+    margin: auto;
+    border: 2px solid white;
+}
+.plus{
+    padding: 20px 30px;
+    border-radius: 100%;
+    font-size: 40px;
+    background-color: red;
+    color: white;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    border-style: none;
+}
+.overlap{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(14, 14, 14);
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    /* left: 0; */
+    z-index: 1; 
+    display: none;
+}
+.popup-box{
+    background-color: rgba(247, 237, 64, 0.923);
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+}
+.popup-box input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(246, 91, 91);
+}
+.popup-box textarea{
+    background: transparent;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid rgb(246, 91, 91);
+}
+.popup-box button{
+    background-color: red;
+    margin: 5px;
+    /* margin-top: 10px;
+    margin-left: 90px; */
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 15px;
+    color: white;
+}
